@@ -1,0 +1,58 @@
+.container {
+  border: 2px solid black;
+  border-radius: 10px;
+  width: 300px;
+  margin: 0 auto;
+}
+
+.avatarContainer {
+  background-color: #f5efef;
+  border-radius: 10px 10px 0 0;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.avatar {
+  display: block;
+  border-radius: 50%;
+  background-color: #4b4848;
+  align-self: center;
+}
+
+.title {
+  font-size: 24px;
+  font-weight: 700;
+  margin-top: 16px;
+}
+
+.description {
+  color: #bbb8b8;
+  font-size: 16px;
+}
+
+.list {
+  display: flex;
+  background-color: #b3b0b0;
+  border-radius: 0 0 10px 10px;
+  border-top: 2px solid #9e9d9d;
+}
+
+.itemList {
+  display: flex;
+  flex-direction: column;
+  width: calc(100% / 3);
+  border-right: 2px solid #9e9d9d;
+  padding-top: 12px;
+  padding-bottom: 12px;
+}
+
+.itemList:last-of-type {
+  border-right: none;
+}
+
+.stats {
+  font-weight: 700;
+}

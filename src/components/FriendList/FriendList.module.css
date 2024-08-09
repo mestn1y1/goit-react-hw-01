@@ -1,0 +1,11 @@
+.list {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 32px;
+  width: 600px;
+  gap: 8px;
+}
+
+.listItem {
+  width: calc((100% - 32px) / 5);
+}
