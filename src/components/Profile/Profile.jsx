@@ -17,15 +17,15 @@ export default function Profile({ username, tag, location, avatar, stats }) {
       <ul className={css.list}>
         <li className={css.itemList}>
           <span>Followers</span>
-          <span className={css}>{stats.followers}</span>
+          <span className={css.stats}>{stats.followers}</span>
         </li>
         <li className={css.itemList}>
           <span>Views</span>
-          <span className={css}>{stats.views}</span>
+          <span className={css.stats}>{stats.views}</span>
         </li>
         <li className={css.itemList}>
           <span>Likes</span>
-          <span className={css}>{stats.likes}</span>
+          <span className={css.stats}>{stats.likes}</span>
         </li>
       </ul>
     </div>
